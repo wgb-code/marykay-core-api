@@ -1,0 +1,25 @@
+{
+  "name": "marykay-core-api",
+  "version": "1.0.0",
+  "description": "API Desenvolvida para auxiliar no controle de vendas de consultores marykay.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wgb-code/marykay-core-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/wgb-code/marykay-core-api/issues"
+  },
+  "homepage": "https://github.com/wgb-code/marykay-core-api#readme",
+  "devDependencies": {
+    "@types/node": "^24.1.0",
+    "typescript": "^5.8.3"
+  }
+}
