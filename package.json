@@ -8,7 +8,8 @@
     "husky:prepare": "husky",
     "test": "jest --passWithNoTests",
     "test:watch": "jest --watch",
-    "test:staged": "yarn test --findRelatedTests" 
+    "test:staged": "yarn test --findRelatedTests",
+    "test:push": "yarn test --coverage"
   },
   "lint-staged": {
     "*.ts": [
@@ -21,8 +22,14 @@
     "type": "git",
     "url": "git+https://github.com/wgb-code/marykay-core-api.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "marykay",
+    "api",
+    "typescript",
+    "nodejs",
+    "express"
+  ],
+  "author": "Willian Gabriel",
   "license": "ISC",
   "type": "commonjs",
   "bugs": {
