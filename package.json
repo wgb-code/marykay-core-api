@@ -4,7 +4,13 @@
   "description": "API Desenvolvida para auxiliar no controle de vendas de consultores marykay.",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon --watch src --exec ts-node src/index.ts"
+    "dev": "nodemon --watch src --exec ts-node src/index.ts",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "*.ts": [
+      "biome check"
+    ]
   },
   "repository": {
     "type": "git",
@@ -21,6 +27,8 @@
   "devDependencies": {
     "@biomejs/biome": "2.1.2",
     "@types/node": "^24.1.0",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.1.2",
     "nodemon": "^3.1.10",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
